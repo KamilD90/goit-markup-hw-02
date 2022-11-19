@@ -6,12 +6,14 @@
     --white: #FFFFFF;
     --section-background: #2F303A;
     --our-team: #F5F4FA;
+
 }
 
-.main {
-    
+.global {
+
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
+    font-weight:400;
     color: var(--text1);
     line-height: 1.17;
 
@@ -31,16 +33,16 @@
 
 }
 
-.main-nav {
+.global-nav {
     color: var(--text2);
-    font-family: 'Roboto', sans-serif;
+    
     font-weight: 500;
     font-size: 14;
     text-decoration: none;
 }
 
 .contact {
-    font-family: 'Roboto', sans-serif;
+    
     font-weight: 500;
     font-size: 14;
     text-decoration: none;
@@ -48,16 +50,22 @@
 
 }
 
+.contact-email {
+    text-decoration: underline;
+    text-decoration-color: var(--text1);
+    color: var(--text1);
+}
+
 .first-section {
     width: 1600px;
     height: 600px;
-    font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 44px;
-        line-height:1.36;
-     text-align: center;
-        letter-spacing: 0.06em;
+    
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
 
     color: var(--white);
     background-color: var(--section-background);
@@ -79,7 +87,7 @@
 }
 
 .second-section-txt {
-    font-weight: 400;
+    
     line-height: 1.71;
 }
 
@@ -98,25 +106,25 @@
 }
 
 .team-member {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.17;
     color: var(--text1)
 }
 
 .team-member-position {
-    font: weight 500px;
+   
     color: var(--text2);
 }
 
 .footer {
     background-color: var(--section-background);
-    
+
 }
 
-.navigate{
+.navigate {
     color: var(--white);
-    text-decoration:none;                   
+    text-decoration: none;
 
 }
 
@@ -124,37 +132,87 @@
     line-height: 1.38;
     color: var(--white);
 }
- .logo:focus, .logo-web:focus, .main-nav:focus, .contact:focus  {
+
+.logo:focus,
+.logo-web:focus,
+.global-nav:focus,
+.contact:focus {
     background-color: var(--white);
     color: var(--text-alt);
- }
-.logo:hover, .logo-web:hover, .main-nav:hover, .contact:hover{
-    background-color: var(--white);
-        color: var(--text-alt);
-        cursor: pointer;
 }
- .first-section .button:focus{
-    background-color: var(--white);
-    color: var(--text-alt); }   
 
-.first-section .button:hover{
+.logo:hover,
+.logo-web:hover,
+.global-nav:hover,
+.contact:hover {
     background-color: var(--white);
-        color: var(--text-alt);
-        cursor: pointer;
-    }
+    color: var(--text-alt);
+    cursor: pointer;
+}
 
- .footer .logo:focus, .footer .navigate:focus,
- .footer .contact:focus{
-    background-color:var(--section-background);
-    color:var(--text-alt); }
- 
-.footer .logo-web:hover
+.first-section .button:focus {
+    background-color: var(--white);
+    color: var(--text-alt);
+}
+
+.first-section .button:hover {
+    background-color: var(--white);
+    color: var(--text-alt);
+    cursor: pointer;
+}
+
+.footer .logo:focus,
+.footer .navigate:focus,
+.footer .contact:focus,         
+.footer .contact-email:focus {
+    background-color: var(--section-background);
+    color: var(--text-alt);
+}
+
+.footer .logo-web:hover,
 .footer .logo:hover,
 .footer .navigate:hover,
-.footer .contact:hover {
+.footer .contact:hover,
+.footer .contact-email:hover {
     background-color: var(--section-background);
-    cursor: pointer;                                
+    cursor: pointer;
     color: var(--text-alt);
 }
 
+.filters{
+    display:inline-block;
+    position:center;
+}
+.filters-portfolio{
+    background-color: var(--our-team);
+    color: var(--text2);
+    font-weight:500;
+    font-size:16px;
+    line-height:1.5;
+    border:none;
+    
+}
 
+.filters-portfolio:focus{
+    background-color: var(--text-alt);
+    color:var(--white);
+    
+
+}
+.filters-portfolio:hover{
+    background-color: var(--text-alt);
+        color: var(--white);
+        cursor:pointer;
+}
+.category{
+font-size:16px;
+line-height:1.87;
+}
+
+.category-type{
+    font-weight: 700;
+    font-height: 18px;
+    color: var(--text2);
+    line-height: 2;
+    
+}

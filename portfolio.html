@@ -18,36 +18,43 @@
 
 </head>
 
-<body class="main">
+<body class="global">
     <header>
-        <a href="index.html" class="logo"><span>Web</span>Studio</a>
+        <a href="index.html" class="logo"><span class="logo-web">Web</span>Studio</a>
         <!--nav to częśc strony która ma odnośniki do nawigacji po naszej stronie-->
-        <nav class="main-nav">
+        <nav>
             <ul>
-                <li><a href="#">Agencja</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="#">Kontakt</a></li>
+                <li><a href="#" class="global-nav">Agencja</a></li>
+                <li><a href="portfolio.html" class="global-nav">Portfolio</a></li>
+                <li><a href="#" class="global-nav">Kontakt</a></li>
             </ul>
         </nav>
-        <div class="main-contact">
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a href="tel:+48111111111">+48 111 111 111</a>
+        <div>
+            <a href="mailto:info@devstudio.com" class="contact">info@devstudio.com</a>
+            <a href="tel:+48111111111" class="contact">+48 111 111 111</a>
         </div>
 
     </header>
-    <main>
+    <main class="global">
         <section>
 
-            <div class="filtry">
-                <p></p>
+            <div>
                 <ul>
-
-
-                    <li><button type="button">Wszystkie</button></li>
-                    <li><button type="button">Strony</button></li>
-                    <li><button type="button">Aplikacje</button></li>
-                    <li><button type="button">Dizajn</button></li>
-                    <li><button type="button">Marketing</button></li>
+                    <li class="filters">
+                        <div><button type="button" class="filters-portfolio">Wszystkie</button></div>
+                    </li>
+                    <li class="filters">
+                        <div><button type="button" class="filters-portfolio">Strony</button></div>
+                    </li>
+                    <li class="filters">
+                        <div><button type="button" class="filters-portfolio">Aplikacje</button></div>
+                    </li>
+                    <li class="filters">
+                        <div><button type="button" class="filters-portfolio">Dizajn</button></div>
+                    </li>
+                    <li class="filters">
+                        <div><button type="button" class="filters-portfolio">Marketing</button></div>
+                    </li>
                 </ul>
             </div>
 
@@ -58,54 +65,55 @@
                 <li>
                     <figure>
                         <img src="images/portfolio/technocrack.jpg" alt="podgląd strony internetowej z widżetami 3 osób"
-                            width=370" height="294" />
-                        <figcaption>
-                            <span>Strona internetowa</span>
+                            width="370" height="294" />
+                        <figcaption class="category"><span class="category-type">Technocrack</span>
+                            Strona internetowa
                         </figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure>
-                        <img src="images/portfolio/grafika-novsgs.jpg" alt="dwóch koszykarzy walczy o piłkę" width=370"
+                        <img src="images/portfolio/grafika-novsgs.jpg" alt="dwóch koszykarzy walczy o piłkę" width="370"
                             height="294" />
-                        <figcaption>
-                            <span>Dizajn</span>
+                        <figcaption class="category"><span class="category-type">Grafika New Orlean vs Golden Star</span>
+                            Dizajn
                         </figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure>
-                        <img src="images/portfolio/restauracja-seafood.jpg" alt="logo restauracji" width=370"
+                        <img src="images/portfolio/restauracja-seafood.jpg" alt="logo restauracji" width="370"
                             height="294" />
-                        <figcaption>
-                            <span>Aplikacja</span>
+                        <figcaption class="category"><span class="category-type">Restauracja Seafood</span>
+                            Aplikacja
                         </figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure>
-                        <img src="images/portfolio/projekt-prime.jpg" alt="słuchawki nauszne" width=370" height="294" />
-                        <figcaption>
-                            <span>Marketing</span>
-                        </figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img src="images/portfolio/projekt-boxes.jpg" alt="dwie propozycje opakowań produktu" width=370"
+                        <img src="images/portfolio/projekt-prime.jpg" alt="słuchawki nauszne" width="370"
                             height="294" />
-                        <figcaption>
-                            <span>Aplikacja</span>
+                        <figcaption class="category"><span class="category-type">Projekt Prime</span>
+                            Marketing
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="images/portfolio/projekt-boxes.jpg" alt="dwie propozycje opakowań produktu"
+                            width="370" height="294" />
+                        <figcaption class="category">
+                            <span class="category-type">Projekt Boxes</span>Aplikacja
                         </figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure>
                         <img src="images/portfolio/inspiration-hnb.jpg"
-                            alt="ekran wyświwetla Strone   internetową z punktami na mapie świata" width=370"
+                            alt="ekran wyświwetla Strone   internetową z punktami na mapie świata" width="370"
                             height="294" />
-                        <figcaption>
-                            <span>Strona inernetowa</span>
+                        <figcaption class="category">
+                            <span class="category-type">Inspiration has no Borders</span>Strona inernetowa
                         </figcaption>
                     </figure>
                 </li>
@@ -113,48 +121,49 @@
                 <li>
                     <figure>
                         <img src="images/portfolio/magazyn-le.jpg" alt="Magazyn otwarty na artykule :Limited Edition"
-                            width=370" height="294" />
-                        <figcaption>
-                            <span>Dizajn</span>
+                            width="370" height="294" />
+                        <figcaption class="category">
+                            <span class="category-type">Magazyn Limited Edition</span>Dizajn
                         </figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure>
-                        <img src="images/portfolio/projekt-lab.jpg" alt="Zbliżenie etykiety produktu" width=370"
+                        <img src="images/portfolio/projekt-lab.jpg" alt="Zbliżenie etykiety produktu" width="370"
                             height="294" />
-                        <figcaption>
-                            <span>Marketing</span>
+                        <figcaption class="category">
+                            <span class="category-type">Projekt LAB</span>Marketing
                         </figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure>
-                        <img src="images/portfolio/growing-business.jpg" alt="człowiek pracujący na laptopie" width=370"
-                            height="294" />
-                        <figcaption>
-                            <span>Aplikacja</span>
+                        <img src="images/portfolio/growing-business.jpg" alt="człowiek pracujący na laptopie"
+                            width="370" height="294" />
+                        <figcaption class="category">
+                            <span class="category-type">Growing business</span>Aplikacja
                         </figcaption>
                     </figure>
                 </li>
             </ul>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <address>
 
             <ul>
                 <li><a href="index.html" class="logo"><span class="logo-web">Web</span>Studio</a></li>
                 <li>
-                    <span>m. Warszawa, Aleje Jerozolimskie, 21</span>
+                    <a href="https://www.bing.com/maps?ty=18&q=Aleje+Jerozolimskie+21%2C+00-508+Warszawa&ppois=52.230525_21.0160686_Aleje+Jerozolimskie+21%2C+00-508+Warszawa_%7E&cp=52.23052%7E21.021395&lvl=16.0&v=2&sV=1&FORM=SNAPST"
+                        class="navigate">m. Warszawa, Aleje Jerozolimskie, 21</a>
                 </li>
                 <li>
 
-                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <a href="mailto:info@example.com" class="contact-email">info@example.com</a>
 
                 </li>
                 <li>
-                    <a href="tel:+48111111111">+48 111 111 111</a>
+                    <a href="tel:+48111111111" class="contact">+48 111 111 111</a>
                 </li>
             </ul>
         </address>
