@@ -1,0 +1,160 @@
+:root {
+    --text1: #757575;
+    --text-alt: #2196F3;
+    --text2: #212121;
+    --black: #000000;
+    --white: #FFFFFF;
+    --section-background: #2F303A;
+    --our-team: #F5F4FA;
+}
+
+.main {
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: var(--text1);
+    line-height: 1.17;
+
+}
+
+.logo {
+    color: var(--black);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    text-decoration: none;
+    line-height: 1.17;
+}
+
+.logo-web {
+    color: var(--text-alt);
+
+}
+
+.main-nav {
+    color: var(--text2);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14;
+    text-decoration: none;
+}
+
+.contact {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14;
+    text-decoration: none;
+    color: var(--text1);
+
+}
+
+.first-section {
+    width: 1600px;
+    height: 600px;
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height:1.36;
+     text-align: center;
+        letter-spacing: 0.06em;
+
+    color: var(--white);
+    background-color: var(--section-background);
+}
+
+.button {
+    background-color: var(--text-alt);
+    color: var(--white);
+    font-size: 16px;
+    line height: 1.88;
+
+
+}
+
+.second-section {
+    font-weight: 700;
+    line-height: 1.17;
+    color: var(--text2);
+}
+
+.second-section-txt {
+    font-weight: 400;
+    line-height: 1.71;
+}
+
+.third-section {
+    font-weight: 700;
+    color: var(--text2);
+    line-height: 1.17;
+}
+
+.team {
+    background-color: var(--our-team);
+    font-weight: 700;
+    color: var(--text2);
+    font-size: 36px;
+    line-height: 1.17;
+}
+
+.team-member {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.17;
+    color: var(--text1)
+}
+
+.team-member-position {
+    font: weight 500px;
+    color: var(--text2);
+}
+
+.footer {
+    background-color: var(--section-background);
+    
+}
+
+.navigate{
+    color: var(--white);
+    text-decoration:none;                   
+
+}
+
+.footer .logo {
+    line-height: 1.38;
+    color: var(--white);
+}
+ .logo:focus, .logo-web:focus, .main-nav:focus, .contact:focus  {
+    background-color: var(--white);
+    color: var(--text-alt);
+ }
+.logo:hover, .logo-web:hover, .main-nav:hover, .contact:hover{
+    background-color: var(--white);
+        color: var(--text-alt);
+        cursor: pointer;
+}
+ .first-section .button:focus{
+    background-color: var(--white);
+    color: var(--text-alt); }   
+
+.first-section .button:hover{
+    background-color: var(--white);
+        color: var(--text-alt);
+        cursor: pointer;
+    }
+
+ .footer .logo:focus, .footer .navigate:focus,
+ .footer .contact:focus{
+    background-color:var(--section-background);
+    color:var(--text-alt); }
+ 
+.footer .logo-web:hover
+.footer .logo:hover,
+.footer .navigate:hover,
+.footer .contact:hover {
+    background-color: var(--section-background);
+    cursor: pointer;                                
+    color: var(--text-alt);
+}
+
+
