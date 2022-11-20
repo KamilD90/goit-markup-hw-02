@@ -1,199 +1,199 @@
 :root {
-    --text1: #757575;
-    --text-alt: #2196F3;
-    --text2: #212121;
-    --black: #000000;
-    --white: #FFFFFF;
-    --section-background: #2F303A;
-    --our-team: #F5F4FA;
-
+  --text1: #757575;
+  --text-alt: #2196f3;
+  --text2: #212121;
+  --black: #000000;
+  --white: #ffffff;
+  --section-background: #2f303a;
+  --our-team: #f5f4fa;
 }
 
-.global {
-
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    font-weight:400;
-    color: var(--text1);
-    line-height: 1.17;
-
+.body {
+  font-family: 'Roboto', sans-serif;
 }
 
 .logo {
-    color: var(--black);
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    text-decoration: none;
-    line-height: 1.17;
+  color: var(--text-alt);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+  line-height: 1.17;
 }
 
-.logo>span{
-    color: var(--text-alt);
-
+.studio-black {
+  color: var(--black);
 }
 
-.navigate a{
-    color: var(--text2);
-    
-    font-weight: 500;
-    font-size: 14;
-    text-decoration: none;
+.navigate a {
+  color: var(--text2);
+
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.navigate a:focus,
+.navigate a:hover {
+  background-color: var(--text-alt);
+  color: var(--white);
 }
 
 .contact {
-    
-    font-weight: 500;
-    font-size: 14;
-    text-decoration: none;
-    color: var(--text1);
-
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+  color: var(--text1);
 }
 
-.contact-portfolio{
-    text-decoration: underline;
-    text-decoration-color: var(--text1);
-    color: var(--text1);
+.contact:focus,
+.contact:hover {
+  background-color: var(--text-alt);
+  color: var(--white);
 }
 
-.first-section {
-
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-     color: var(--white);
-    background-color: var(--section-background);
+/*  body of WebStudio site */
+.slogan {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  color: var(--white);
+  background-color: var(--section-background);
 }
-.global button {
-    background-color: var(--our-team);
-    color: var(--text2);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    border: none;}
-
-.first-section >button {
-    background-color: var(--text-alt);
-    color: var(--white);
-    font-size: 16px;
-    line height: 1.88;
+.slogan button {
+  background-color: var(--text-alt);
+  color: var(--white);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  border: none;
 }
 
-.second-section {
-    font-weight: 700;
-    line-height: 1.17;
-    color: var(--text2);
+.slogan button:focus,
+.slogan button:hover {
+  background-color: var(--white);
+  color: var(--text-alt);
+  cursor: pointer;
 }
 
-.second-section p {
-    line-height: 1.71;
-    color:var(--text1);
+.article h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  color: var(--text2);
 }
 
-.third-section {
-    font-weight: 700;
-    color: var(--text2);
-    line-height: 1.17;
+.article p {
+  line-height: 1.71;
+  color: var(--text1);
+  font-size: 14px;
+}
+
+.our-job h2 {
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--text2);
+  line-height: 1.17;
 }
 
 .team {
-    background-color: var(--our-team);
-    font-weight: 700;
-    color: var(--text2);
-    font-size: 36px;
-    line-height: 1.17;
+  background-color: var(--our-team);
+}
+.team h2 {
+  font-weight: 700;
+  color: var(--text2);
+  font-size: 36px;
+  line-height: 1.17;
 }
 
-.team figcaption{
-    font-weight: 400;
-    font-size: 16px;
-    color:var(--text1)
-    
+.team .team-members {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--text1);
+  line-height: 1.17;
 }
 
-.team span{
-   font-weight:500;
-   font-size:16;
-    color: var(--text2);
-
+.team-members span {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--text2);
+  line-height: 1.17;
 }
 
 .footer {
-    background-color: var(--section-background);
-font-style:normal;
-line-height:1.71;
-}
-
-.route{
-    color: var(--white);
-    text-decoration: none;
-    
+  background-color: var(--section-background);
+  font-style: normal;
+  line-height: 1.71;
 }
 
 .footer .logo {
-   
-    line-height: 1.38;
-    color: var(--white);
+  line-height: 1.19;
+}
+.studio-white {
+  color: var(--white);
+  line-height: 1.19;
 }
 
-.logo:focus,
-.logo>span:focus,
-.navigate a:focus,
-.contact:focus {
-    background-color: var(--white);
-    color: var(--text-alt);
+.route {
+  color: var(--white);
+  text-decoration: none;
+
 }
 
-.logo:hover,
-.logo>span:hover,
-.navigate a:hover,
-.contact:hover {
-    background-color: var(--white);
-    color: var(--text-alt);
-    cursor: pointer;
-}
-
-.footer a:focus,
-.footer a:hover,
-.footer a>span:hover,
-.footer a>span:focus{
-    background-color: var(--section-background);
-    color: var(--text-alt);
-    cursor: pointer;
+.footer .contact:hover,
+.footer .contact:focus{
+    background-color:var(--section-background);
+    color:var(--text-alt);
 }
 
 
-.global button:focus{
-    background-color: var(--text-alt);
-    color:var(--white);
 
+/* Portfolio site starts here */
+.filters button {
+  color: var(--text2);
+  background-color: var(--our-team);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  border: 0;
 }
-.global button:hover{
-    background-color: var(--text-alt);
-        color: var(--white);
-        cursor:pointer;
+.filters button:focus {
+  background-color: var(--text-alt);
+  color: var(--white);
 }
+.filters button:hover {
+  background-color: var(--text-alt);
+  color: var(--white);
+  cursor: pointer;
+}
+/* CATEGORY IMAGES */
 
-.first-section button:focus{
-    background-color: var(--white);
-        color: var(--text-alt);
-}
 
-.first-section button:hover {
-    background-color: var(--white);
-    color: var(--text-alt);
-    cursor: pointer;
-}
-.category{
-font-size:16px;
-line-height:1.87;
-}
-
-.category>span{
-    font-weight: 700;
-    font-height: 18px;
-    color: var(--text2);
-    line-height: 2;
+.category-item{
+    font-size:16px;
     
+    line-height:1.87;
+    }
+    
+    .category-item span{
+        font-weight: 700;
+        font-size:18px;
+        color: var(--text2);
+        line-height: 2;
+        
+    }
+
+.contact-portfolio{
+    text-decoration:underline;
+    text-decoration-color: var(--text1);
+    color:var(--text1);
 }
+
+.contact-portfolio:hover,
+.contact-portfolio:focus{
+    background-color:var(--section-background);
+    color:var(--text-alt);
+}
+
