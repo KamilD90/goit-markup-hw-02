@@ -28,12 +28,12 @@
     line-height: 1.17;
 }
 
-.logo-web {
+.logo>span{
     color: var(--text-alt);
 
 }
 
-.global-nav {
+.navigate a{
     color: var(--text2);
     
     font-weight: 500;
@@ -50,34 +50,34 @@
 
 }
 
-.contact-email {
+.contact-portfolio{
     text-decoration: underline;
     text-decoration-color: var(--text1);
     color: var(--text1);
 }
 
 .first-section {
-    width: 1600px;
-    height: 600px;
-    
-    font-style: normal;
+
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
-    letter-spacing: 0.06em;
-
-    color: var(--white);
+     color: var(--white);
     background-color: var(--section-background);
 }
+.global button {
+    background-color: var(--our-team);
+    color: var(--text2);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    border: none;}
 
-.button {
+.first-section >button {
     background-color: var(--text-alt);
     color: var(--white);
     font-size: 16px;
     line height: 1.88;
-
-
 }
 
 .second-section {
@@ -86,9 +86,9 @@
     color: var(--text2);
 }
 
-.second-section-txt {
-    
+.second-section p {
     line-height: 1.71;
+    color:var(--text1);
 }
 
 .third-section {
@@ -105,111 +105,92 @@
     line-height: 1.17;
 }
 
-.team-member {
-    font-weight: 500;
+.team figcaption{
+    font-weight: 400;
     font-size: 16px;
-    line-height: 1.17;
-    color: var(--text1)
+    color:var(--text1)
+    
 }
 
-.team-member-position {
-   
+.team span{
+   font-weight:500;
+   font-size:16;
     color: var(--text2);
+
 }
 
 .footer {
     background-color: var(--section-background);
-
+font-style:normal;
+line-height:1.71;
 }
 
-.navigate {
+.route{
     color: var(--white);
     text-decoration: none;
-
+    
 }
 
 .footer .logo {
+   
     line-height: 1.38;
     color: var(--white);
 }
 
 .logo:focus,
-.logo-web:focus,
-.global-nav:focus,
+.logo>span:focus,
+.navigate a:focus,
 .contact:focus {
     background-color: var(--white);
     color: var(--text-alt);
 }
 
 .logo:hover,
-.logo-web:hover,
-.global-nav:hover,
+.logo>span:hover,
+.navigate a:hover,
 .contact:hover {
     background-color: var(--white);
     color: var(--text-alt);
     cursor: pointer;
 }
 
-.first-section .button:focus {
-    background-color: var(--white);
-    color: var(--text-alt);
-}
-
-.first-section .button:hover {
-    background-color: var(--white);
+.footer a:focus,
+.footer a:hover,
+.footer a>span:hover,
+.footer a>span:focus{
+    background-color: var(--section-background);
     color: var(--text-alt);
     cursor: pointer;
 }
 
-.footer .logo:focus,
-.footer .navigate:focus,
-.footer .contact:focus,         
-.footer .contact-email:focus {
-    background-color: var(--section-background);
-    color: var(--text-alt);
-}
 
-.footer .logo-web:hover,
-.footer .logo:hover,
-.footer .navigate:hover,
-.footer .contact:hover,
-.footer .contact-email:hover {
-    background-color: var(--section-background);
-    cursor: pointer;
-    color: var(--text-alt);
-}
-
-.filters{
-    display:inline-block;
-    position:center;
-}
-.filters-portfolio{
-    background-color: var(--our-team);
-    color: var(--text2);
-    font-weight:500;
-    font-size:16px;
-    line-height:1.5;
-    border:none;
-    
-}
-
-.filters-portfolio:focus{
+.global button:focus{
     background-color: var(--text-alt);
     color:var(--white);
-    
 
 }
-.filters-portfolio:hover{
+.global button:hover{
     background-color: var(--text-alt);
         color: var(--white);
         cursor:pointer;
+}
+
+.first-section button:focus{
+    background-color: var(--white);
+        color: var(--text-alt);
+}
+
+.first-section button:hover {
+    background-color: var(--white);
+    color: var(--text-alt);
+    cursor: pointer;
 }
 .category{
 font-size:16px;
 line-height:1.87;
 }
 
-.category-type{
+.category>span{
     font-weight: 700;
     font-height: 18px;
     color: var(--text2);
