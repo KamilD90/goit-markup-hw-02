@@ -10,6 +10,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  font-size: 14px;
 }
 
 .logo {
@@ -74,7 +75,7 @@ body {
 
 .article h3 {
   font-weight: 700;
-  font-size: 14px;
+  
   line-height: 1.17;
   color: var(--text2);
 }
@@ -82,7 +83,7 @@ body {
 .article p {
   line-height: 1.71;
   color: var(--text1);
-  font-size: 14px;
+ 
 }
 
 .our-job h2 {
