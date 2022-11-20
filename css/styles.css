@@ -24,32 +24,36 @@
 .studio-black {
   color: var(--black);
 }
+.studio-black:focus,
+.studio-black:hover{
+    color:var(--black);
+}
 
 .navigate a {
   color: var(--text2);
 
   font-weight: 500;
-  font-size: 14px;
+  
   text-decoration: none;
 }
 
 .navigate a:focus,
 .navigate a:hover {
-  background-color: var(--text-alt);
-  color: var(--white);
+  background-color: var(--white);
+  color: var(--text-alt);
 }
 
 .contact {
   font-weight: 500;
-  font-size: 14px;
+  
   text-decoration: none;
   color: var(--text1);
 }
 
 .contact:focus,
 .contact:hover {
-  background-color: var(--text-alt);
-  color: var(--white);
+  background-color:var(--white);
+  color: var(--text-alt);
 }
 
 /*  body of WebStudio site */
@@ -151,6 +155,10 @@
 
 
 /* Portfolio site starts here */
+.navigate .navigate-portfolio{
+    color:var(--text-alt);
+}
+
 .filters button {
   color: var(--text2);
   background-color: var(--our-team);
