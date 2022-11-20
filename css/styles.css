@@ -138,19 +138,17 @@ footer .contact{
 
 
 /* Portfolio site starts here */
-.navigate .navigate-portfolio {
-  color: var(--text-alt);
-}
 
 .filters button {
   color: var(--text2);
   background-color: var(--our-team);
-  font-family: 'Roboto';
+  font-family: 'Roboto',sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   border: 0;
 }
+.filters button:hover,
 .filters button:focus {
   background-color: var(--text-alt);
   color: var(--white);
