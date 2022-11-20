@@ -8,7 +8,7 @@
   --our-team: #f5f4fa;
 }
 
-.body {
+body {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -24,10 +24,6 @@
 .studio-black {
   color: var(--black);
 }
-.studio-black:focus,
-.studio-black:hover {
-  color: var(--black);
-}
 
 .navigate a {
   color: var(--text2);
@@ -35,9 +31,8 @@
   text-decoration: none;
 }
 
-.body .navigate a:focus,
-.body .navigate a:hover {
-  background-color: var(--white);
+.navigate a:focus,
+.navigate a:hover {
   color: var(--text-alt);
 }
 
@@ -48,9 +43,8 @@
   color: var(--text1);
 }
 
-.body .contact:focus,
-.body .contact:hover {
-  background-color: var(--white);
+.contact:focus,
+.contact:hover {
   color: var(--text-alt);
 }
 
@@ -75,8 +69,6 @@
 
 .slogan button:focus,
 .slogan button:hover {
-  background-color: var(--white);
-  color: var(--text-alt);
   cursor: pointer;
 }
 
@@ -124,30 +116,26 @@
   line-height: 1.17;
 }
 
-.footer {
+footer {
   background-color: var(--section-background);
   font-style: normal;
   line-height: 1.71;
 }
 
-.footer .logo {
-  line-height: 1.19;
-}
 .studio-white {
   color: var(--white);
-  line-height: 1.19;
+  
 }
 
 .route {
   color: var(--white);
   text-decoration: none;
+  font-weight:400;
+}
+footer .contact{
+  font-weight:400;
 }
 
-.footer .contact:hover,
-.footer .contact:focus {
-  background-color: var(--section-background);
-  color: var(--text-alt);
-}
 
 /* Portfolio site starts here */
 .navigate .navigate-portfolio {
@@ -157,6 +145,7 @@
 .filters button {
   color: var(--text2);
   background-color: var(--our-team);
+  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -165,12 +154,9 @@
 .filters button:focus {
   background-color: var(--text-alt);
   color: var(--white);
-}
-.filters button:hover {
-  background-color: var(--text-alt);
-  color: var(--white);
   cursor: pointer;
 }
+
 /* CATEGORY IMAGES */
 
 .category-item {
