@@ -118,22 +118,27 @@ body {
 
 footer {
   background-color: var(--section-background);
-  font-style: normal;
   line-height: 1.71;
+  
+  
 }
 
 .studio-white {
-  color: var(--white);
-  
+  color: var(--white); 
 }
 
 .route {
   color: var(--white);
   text-decoration: none;
   font-weight:400;
+  font-style:normal;
+  
 }
-footer .contact{
+ .contact{
   font-weight:400;
+  font-style:normal;
+  
+  
 }
 
 
@@ -148,6 +153,7 @@ footer .contact{
   line-height: 1.62;
   border: 0;
 }
+
 .filters button:hover,
 .filters button:focus {
   background-color: var(--text-alt);
@@ -167,17 +173,20 @@ footer .contact{
   font-weight: 700;
   font-size: 18px;
   color: var(--text2);
+  
   line-height: 2;
 }
 
-.contact-portfolio {
+ .contact-portfolio{
   text-decoration: underline;
   text-decoration-color: var(--text1);
+  font-weight:400;
+  font-style: normal;
   color: var(--text1);
 }
 
 .contact-portfolio:hover,
 .contact-portfolio:focus {
-  background-color: var(--section-background);
+  
   color: var(--text-alt);
 }
