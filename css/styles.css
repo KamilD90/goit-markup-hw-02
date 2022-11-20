@@ -31,14 +31,12 @@
 
 .navigate a {
   color: var(--text2);
-
-  font-weight: 500;
-  
-  text-decoration: none;
+font-weight: 500;
+    text-decoration: none;
 }
 
-.navigate a:focus,
-.navigate a:hover {
+.body .navigate a:focus,
+.body .navigate a:hover {
   background-color: var(--white);
   color: var(--text-alt);
 }
@@ -50,8 +48,8 @@
   color: var(--text1);
 }
 
-.contact:focus,
-.contact:hover {
+.body .contact:focus,
+.body .contact:hover {
   background-color:var(--white);
   color: var(--text-alt);
 }
